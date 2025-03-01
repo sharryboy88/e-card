@@ -1,0 +1,8 @@
+[build]
+  base = "/"
+  publish = "build/"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "16.x"  # Verwende die Node.js-Version aus deiner package.json
+  GO_VERSION = "none"    # Deaktiviere Go
