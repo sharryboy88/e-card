@@ -1,0 +1,68 @@
+.playerScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center; // Zentriert die Karten horizontal
+  justify-content: flex-end; // Karten unten für Spieler 1
+  width: 100%; // Container nimmt die volle Breite ein
+  height: 50%; // Nimmt die Hälfte der Höhe des Containers ein
+  position: absolute; // Absolute Positionierung für Spielfeldgrenze
+  bottom: 0; // Spieler 1 Karten unten am Rand
+}
+
+.playerScreen.playerScreenTop {
+  justify-content: flex-start; // Karten oben für Spieler 2
+  bottom: auto; // Spieler 2 Karten oben am Rand
+  top: 0;
+}
+
+.playerName {
+  font-size: 2rem;
+  margin: 0 200px; // Abstand zwischen Name und Karten
+  color: #fff;
+  font-family: 'K2D', sans-serif;
+  position: absolute; // Name absolut positionieren
+  left: 400px; // Name links für Spieler 1
+}
+
+.playerScreenTop .playerName {
+  left: auto; // Name rechts für Spieler 2
+  right: 400px;
+  bottom: 160px
+}
+
+.cardGrid {
+  display: flex;
+  gap: 10px; // Abstand zwischen den Karten
+  justify-content: center; // Karten mittig ausrichten
+  width: 100%; // Nimmt die volle Breite ein
+  margin-bottom: -140px; // Abstand nach unten für Spieler 1
+}
+
+.playerScreenTop .cardGrid {
+  margin-bottom: 0; // Kein Abstand nach unten für Spieler 2
+  margin-top: 20px; // Abstand nach oben für Spieler 2
+}
+
+.card {
+  width: 80px; // Kartengröße
+  height: 120px; // Kartengröße
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.selected {
+  transform: scale(1.08) translateY(-10px);
+  box-shadow: 0 0 35px #4CAF50;
+}

@@ -1,0 +1,43 @@
+.popup {
+    &__container {
+        position: fixed;
+        bottom: 2%;
+        right: 5%;
+        width: 20%;
+        text-align: center;
+        background: rgba(black, .5);
+        color: white;
+        padding: 2rem;
+        z-index: 999999;
+
+        @media(max-width: 900px) {
+            font-size: 1.3rem;
+            width: 30%;
+        }
+
+        @media(max-width: 600px) {
+            width: 50%;
+            right: 50%;
+            transform: translateX(50%);
+            background: black;
+        }
+
+        @media(max-width: 500px) {
+            width: 70%;
+        }
+    }
+
+    &__close {
+        font-size: 2rem;
+        position: absolute;
+        top: 0;
+        right: 2%;
+        cursor: pointer;
+    }
+
+    &__hidden {
+        display: none;
+    }
+
+
+}

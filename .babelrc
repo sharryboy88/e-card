@@ -1,0 +1,16 @@
+{
+  "presets": [
+    [
+      "react-app",
+      {
+        "absoluteRuntime": false,
+        "useBuiltIns": "entry",
+        "corejs": 3
+      }
+    ]
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-optional-chaining", { "loose": false }],
+    ["@babel/plugin-proposal-nullish-coalescing-operator", { "loose": false }]
+  ]
+}
