@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/e-card-v2/static/css/main.e0e5f838.css",
+    "main.js": "/e-card-v2/static/js/main.e4a61926.js",
+    "static/media/zawa.wav": "/e-card-v2/static/media/zawa.5bae2bcdb800a6b12a9b.wav",
+    "static/media/background.jpeg": "/e-card-v2/static/media/background.2820aacca8a7755facc9.jpeg",
+    "static/media/emperor_defeated.jpg": "/e-card-v2/static/media/emperor_defeated.16b60d2f2cf33f8868a7.jpg",
+    "static/media/citizen_defeated.jpg": "/e-card-v2/static/media/citizen_defeated.106c956d60d9b3ae6f94.jpg",
+    "static/media/slave_defeated.jpg": "/e-card-v2/static/media/slave_defeated.35a4b8479026fba03f7a.jpg",
+    "static/media/emperor.jpg": "/e-card-v2/static/media/emperor.6f3b011f08aa11bd492c.jpg",
+    "static/media/citizen.jpg": "/e-card-v2/static/media/citizen.46c718227128622282d4.jpg",
+    "static/media/slave.jpg": "/e-card-v2/static/media/slave.30c3594d3b26744d0b46.jpg",
+    "static/media/back.jpg": "/e-card-v2/static/media/back.5864bab819cb54c4f463.jpg",
+    "static/media/swords.svg": "/e-card-v2/static/media/swords.1c9bdd1bcb70393309d0093a3d614b94.svg",
+    "index.html": "/e-card-v2/index.html",
+    "main.e0e5f838.css.map": "/e-card-v2/static/css/main.e0e5f838.css.map",
+    "main.e4a61926.js.map": "/e-card-v2/static/js/main.e4a61926.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0e5f838.css",
+    "static/js/main.e4a61926.js"
+  ]
+}
